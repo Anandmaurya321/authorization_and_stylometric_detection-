@@ -35,10 +35,10 @@ app.add_middleware(
 # =========================
 
 #C:\Users\ilive\OneDrive\문서\Desktop\auth_pro\backend\pkl
-model = joblib.load("../pipeline/nlp/model.pkl")
-label_encoder = joblib.load("../pipeline/nlp/label_encoder.pkl")
-scaler = joblib.load("../pipeline/nlp/scaler.pkl")
-vectorizer = joblib.load("../pipeline/nlp/vectorizer.pkl")
+model = joblib.load("../pipeline/model.pkl")
+label_encoder = joblib.load("../pipeline/label_encoder.pkl")
+scaler = joblib.load("../pipeline/scaler.pkl")
+vectorizer = joblib.load("../pipeline/vectorizer.pkl")
 
 # =========================
 # STOPWORDS
